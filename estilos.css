@@ -58,6 +58,7 @@ main .textanim {
     font-size: 42px;
     font-weight: 700;
     overflow: hidden;
+    padding-left: 10px;
 }
 
 main .textanim li span{
@@ -135,6 +136,7 @@ footer {
         font-size: 17px;
         font-weight: 700;
         overflow: hidden;
+        padding-left: 6px;
     }
 
     main .textanim li span{
