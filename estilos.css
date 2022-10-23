@@ -14,6 +14,8 @@ a {
     color: #656074;
 }
 
+/*HEADER*/
+
 header {
     display: flex;
     justify-content: space-between;
@@ -33,6 +35,64 @@ nav a:hover {
     color: #F39D4E;
 }
 
+/*MAIN*/
+
+main {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 50vh;
+}
+
+main .herotext {
+    color: #F39D4E;
+    font-size: 3em;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 800;    
+}
+
+main .textanim {
+    color: #656074;
+    list-style: none;
+    height: 45px;
+    line-height: 1.5em;
+    font-size: 2.5em;
+    font-weight: 700;
+    overflow: hidden;
+}
+
+main .textanim li span{
+    position: relative;
+    top: 0;
+    animation: slide 6s steps(4) infinite;
+}
+
+@keyframes slide{
+    100%{
+        top: -190px
+    }
+}
+
+main .textanim li span::after{
+    content: "";
+    position: absolute;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background: #DFDBE5;
+    border-left: 2px solid #F39D4E;
+    animation: typing 1.5s steps(10) infinite;
+}
+
+@keyframes typing{
+    100%{
+        left: 100%;
+        margin: 0 -35px 0 35px;
+    }
+}
+
+/*FOOTER*/
+
 footer {
     min-height: auto;
     display: flex;
@@ -43,6 +103,7 @@ footer {
     margin-top: auto;
 }
 
+/*MEDIAQERY*/
 
 @media (max-width: 700px) {
     body{
