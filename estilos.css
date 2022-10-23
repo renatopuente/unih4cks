@@ -2,7 +2,6 @@ body {
     font-family: sans-serif;
     margin: 0;
     background-color: #DFDBE5;
-    background-image: url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%239C92AC' fill-opacity='0.4'%3E%3Cpath d='M36 34v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zm0-30V0h-2v4h-4v2h4v4h2V6h4V4h-4zM6 34v-4H4v4H0v2h4v4h2v-4h4v-2H6zM6 4V0H4v4H0v2h4v4h2V6h4V4H6z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
     display: flex;
     flex-direction: column;
     min-height: 100vh;
@@ -80,7 +79,7 @@ main .textanim li span::after{
     left: 0;
     height: 100%;
     width: 100%;
-    background: #DFDBE5;
+    background-color: #DFDBE5;
     border-left: 3px solid #F39D4E;
     animation: typing 1.5s steps(10) infinite;
 }
@@ -123,6 +122,11 @@ footer {
         padding-left: 16px;
     }
 
+    main .herotext {
+        color: #F39D4E;
+        font-size: 20px;
+    }
+
     main .textanim {
         color: #656074;
         list-style: none;
@@ -146,8 +150,16 @@ footer {
         }
     }
 
-    main .herotext {
-        color: #F39D4E;
-        font-size: 20px;
+    main .textanim li span::after{
+        content: "";
+        position: absolute;
+        left: 0;
+        height: 100%;
+        width: 100%;
+        background: #DFDBE5;
+        border-left: 3px solid #F39D4E;
+        animation: typing 1.5s steps(10) infinite;
     }
+
+  
 }
