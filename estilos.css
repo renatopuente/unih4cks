@@ -1,14 +1,16 @@
-body{
+body {
     font-family: sans-serif;
     margin: 0;
+    background-color: #DFDBE5;
+    background-image: url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%239C92AC' fill-opacity='0.4'%3E%3Cpath d='M36 34v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zm0-30V0h-2v4h-4v2h4v4h2V6h4V4h-4zM6 34v-4H4v4H0v2h4v4h2v-4h4v-2H6zM6 4V0H4v4H0v2h4v4h2V6h4V4H6z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
 }
 
-a{
+a {
     text-decoration: none;
     color: #656074;
 }
 
-header{
+header {
     display: flex;
     justify-content: space-between;
     min-height: 70px;
@@ -17,21 +19,22 @@ header{
     padding: 10px;
 }
 
-nav a{
+nav a {
     font-weight: 700;
     padding-right: 16px;
 }
 
-nav a:hover{
+nav a:hover {
     text-decoration: underline;
     color: #F39D4E;
 }
 
-@media (max-width: 700px){
-    header{
+@media (max-width: 700px) {
+    header {
         flex-direction: column;
     }
-    nav{
+
+    nav {
         padding-top: 16px;
         padding-bottom: 16px;
         padding-left: 16px;
