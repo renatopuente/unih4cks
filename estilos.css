@@ -54,9 +54,9 @@ main .herotext {
 main .textanim {
     color: #656074;
     list-style: none;
-    height: 45px;
-    line-height: 45px;
-    font-size: 45px;
+    height: 50px;
+    line-height: 50px;
+    font-size: 42px;
     font-weight: 700;
     overflow: hidden;
 }
@@ -64,12 +64,13 @@ main .textanim {
 main .textanim li span{
     position: relative;
     top: 0;
+    font-size: 42px;
     animation: slide 6s steps(4) infinite;
 }
 
 @keyframes slide{
     100%{
-        top: -180px
+        top: -200px
     }
 }
 
