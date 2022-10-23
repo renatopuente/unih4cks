@@ -110,7 +110,7 @@ main .textanim li span::after{
 .contenedor button{
     background-color: #F39D4E;
     padding: 12px 16px;
-    stroke-width: 40px;
+    border-style: none;
 }
 
 .contenedor button a{
