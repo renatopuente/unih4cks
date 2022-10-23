@@ -36,9 +36,10 @@ nav a:hover {
 
 /*MAIN*/
 
-.textohero {
+.textohero span{
     display: flex;
-    font-size: 20px;
+    font-size: 40px;
+    font-weight: 700;
     align-items: center;
     justify-content: center;
     margin-top: 50px;
@@ -131,8 +132,13 @@ footer {
         padding-left: 16px;
     }
 
-    .textohero {
-        font-size: 16px;
+    .textohero span{
+        display: flex;
+        font-size: 20px;
+        font-weight: 700;
+        align-items: center;
+        justify-content: center;
+        margin-top: 50px;
     }
 
     main .herotext {
