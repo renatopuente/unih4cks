@@ -10,7 +10,7 @@ body {
 
 a {
     text-decoration: none;
-    color: #f2f2f2;
+    color: #656074;
 }
 
 /*HEADER*/
@@ -109,13 +109,17 @@ main .textanim li span::after{
 }
 
 .contenedor .boton{
-    background-color: #F39D4E;
     padding: 12px 16px;
     border-width: 3px;
-    color: #f2f2f2;
+    color: #d9d9d9;
+    overflow: hidden;
+    transition: 0.2s;
 }
 
-
+.contenedor .boton:hover{
+    background-color: #6345be;
+    font-size: 80px;
+}
 /*FOOTER*/
 
 footer {
