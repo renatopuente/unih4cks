@@ -126,9 +126,9 @@ footer {
     main .textanim {
         color: #656074;
         list-style: none;
-        height: 20px;
-        line-height: 20px;
-        font-size: 20px;
+        height: 22px;
+        line-height: 22px;
+        font-size: 17px;
         font-weight: 700;
         overflow: hidden;
     }
@@ -136,13 +136,13 @@ footer {
     main .textanim li span{
         position: relative;
         top: 0;
-        font-size: 20px;
+        font-size: 17px;
         animation: slide 6s steps(4) infinite;
     }
 
     @keyframes slide{
         100%{
-            top: -80px
+            top: -88px
         }
     }
 
