@@ -36,11 +36,19 @@ nav a:hover {
 
 /*MAIN*/
 
+.textohero {
+    display: flex;
+    font-size: 20px;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+}
+
 main {
     display: inline-flex;
     align-items: center;
     justify-content: center;
-    min-height: 50vh;
+    min-height: 70px;
 }
 
 main .herotext {
