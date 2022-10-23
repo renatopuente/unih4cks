@@ -46,7 +46,7 @@ main {
 
 main .herotext {
     color: #F39D4E;
-    font-size: 3em;
+    font-size: 45px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-weight: 800;    
 }
@@ -55,8 +55,8 @@ main .textanim {
     color: #656074;
     list-style: none;
     height: 45px;
-    line-height: 1.5em;
-    font-size: 2.5em;
+    line-height: 45px;
+    font-size: 45px;
     font-weight: 700;
     overflow: hidden;
 }
@@ -69,7 +69,7 @@ main .textanim li span{
 
 @keyframes slide{
     100%{
-        top: -190px
+        top: -180px
     }
 }
 
