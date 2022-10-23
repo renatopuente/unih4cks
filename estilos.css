@@ -122,4 +122,32 @@ footer {
         padding-bottom: 16px;
         padding-left: 16px;
     }
+
+    main .textanim {
+        color: #656074;
+        list-style: none;
+        height: 20px;
+        line-height: 20px;
+        font-size: 20px;
+        font-weight: 700;
+        overflow: hidden;
+    }
+
+    main .textanim li span{
+        position: relative;
+        top: 0;
+        font-size: 20px;
+        animation: slide 6s steps(4) infinite;
+    }
+
+    @keyframes slide{
+        100%{
+            top: -80px
+        }
+    }
+
+    main .herotext {
+        color: #F39D4E;
+        font-size: 20px;
+    }
 }
