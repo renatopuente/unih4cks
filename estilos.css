@@ -109,6 +109,10 @@ main .textanim li span::after {
     }
 }
 
+/* --------- */
+/*CONTENEDOR*/
+/* -------- */
+
 .contenedor {
     display: flex;
     align-items: center;
@@ -284,6 +288,14 @@ footer {
         background: #1B211F;
         border-left: 3px solid #5FE9A5;
         animation: typing 1.5s steps(10) infinite;
+    }
+
+    .contenedor .boton {
+        background-color: #5FE9A5;
+        color: #1B211F;
+        box-shadow: 0 0 10PX #5FE9A5, 0 0 40PX #5FE9A5, 0 0 80PX #5FE9A5;
+        font-weight: 700;
+        transition-delay: 1s;
     }
 
 
