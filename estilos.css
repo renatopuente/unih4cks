@@ -133,7 +133,7 @@ main .textanim li span::after {
 
 .contenedor .boton:hover {
     background-color: #5FE9A5;
-    color: #1B211F;
+    color: #ffffff;
     box-shadow: 0 0 10PX #5FE9A5, 0 0 40PX #5FE9A5, 0 0 80PX #5FE9A5;
     font-weight: 700;
     transition-delay: 1s;
@@ -299,7 +299,7 @@ footer {
 
     .contenedor .boton {
         background-color: #5FE9A5;
-        color: #1B211F;
+        color: #fff;
         box-shadow: 0 0 10PX #5FE9A5, 0 0 40PX #5FE9A5, 0 0 80PX #5FE9A5;
         font-weight: 700;
         transition: 0.8s;
