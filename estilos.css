@@ -230,6 +230,11 @@ footer {
         min-height: 100vh;
     }
 
+    a {
+        text-decoration: none;
+        color: #889FA5;
+    }
+
     header {
         flex-direction: column;
     }
@@ -294,8 +299,8 @@ footer {
         color: #1B211F;
         box-shadow: 0 0 10PX #5FE9A5, 0 0 40PX #5FE9A5, 0 0 80PX #5FE9A5;
         font-weight: 700;
-        transition-delay: 2s;
-        transition: 0.2s;
+        transition: 0.8s;
+        transition-delay: 0.5s;
     }
 
 
