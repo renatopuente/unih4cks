@@ -312,5 +312,12 @@ footer {
         transition-delay: 0.5s;
     }
 
+    .radio {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding-top: 42px;
+    }
+
 
 }
