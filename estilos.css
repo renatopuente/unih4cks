@@ -200,6 +200,9 @@ main .textanim li span::after {
 }
 
 .contenedor2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     margin-top: 64px;
     height: 45vh;
     background-color: #171c1b;
