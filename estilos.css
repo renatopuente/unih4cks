@@ -28,7 +28,7 @@ header {
 
 nav a {
     font-weight: 700;
-    padding-right: 8px;
+    padding-right: 32px;
 }
 
 nav a:hover {
