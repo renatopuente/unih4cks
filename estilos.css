@@ -21,14 +21,14 @@ header {
     min-height: 70px;
     background-color: #1C2521;
     align-items: center;
-    padding-left: 32px;
-    padding-right: 32px;
+    padding-left: 16px;
+    padding-right: 16px;
     padding-top: 16px;
 }
 
 nav a {
     font-weight: 700;
-    padding-right: 16px;
+    padding-right: 8px;
 }
 
 nav a:hover {
@@ -245,7 +245,13 @@ footer {
     nav {
         padding-top: 16px;
         padding-bottom: 16px;
-        padding-left: 16px;
+        padding-left: 8px;
+    }
+
+    nav a{
+        padding-top: 16px;
+        padding-bottom: 16px;
+        padding-left: 8px;
     }
 
     .textohero span {
