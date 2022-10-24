@@ -209,7 +209,7 @@ main .textanim li span::after {
 /*FOOTER*/
 
 footer {
-    min-height: auto;
+    min-height: 10vh;
     display: flex;
     justify-content: center;
     align-items: center;
