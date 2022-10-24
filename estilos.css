@@ -34,6 +34,11 @@ nav a:hover {
     color: #00C6B0;
 }
 
+.sep {
+    height: 1px;
+    background-color: #889FA5;
+}
+
 /*MAIN*/
 
 .textohero span{
@@ -106,7 +111,7 @@ main .textanim li span::after{
     display: flex;
     align-items: center;
     justify-content: center;
-    padding-top: 32px;
+    padding-top: 42px;
 }
 
 .contenedor .boton{
@@ -120,7 +125,8 @@ main .textanim li span::after{
 .contenedor .boton:hover{
     background-color: #5FE9A5;
     color: #1B211F;
-    
+    box-shadow: 0 0 10PX #5FE9A5, 0 0 40PX #5FE9A5, 0 0 80PX #5FE9A5;
+    font-weight: 700;
 }
 
 /*FOOTER*/
