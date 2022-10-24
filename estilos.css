@@ -21,7 +21,7 @@ header {
     min-height: 70px;
     background-color: #1C2521;
     align-items: center;
-    padding: 10px;
+    padding-left: 32px;
 }
 
 nav a {
