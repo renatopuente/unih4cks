@@ -42,7 +42,7 @@ nav a:hover {
 
 /*MAIN*/
 
-.textohero span{
+.textohero span {
     display: flex;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-size: 40px;
@@ -63,7 +63,7 @@ main .herotext {
     color: #00C6B0;
     font-size: 45px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    font-weight: 800;    
+    font-weight: 800;
 }
 
 main .textanim {
@@ -77,20 +77,20 @@ main .textanim {
     padding-left: 16px;
 }
 
-main .textanim li span{
+main .textanim li span {
     position: relative;
     top: 0;
     font-size: 42px;
     animation: slide 6s steps(4) infinite;
 }
 
-@keyframes slide{
-    100%{
+@keyframes slide {
+    100% {
         top: -200px
     }
 }
 
-main .textanim li span::after{
+main .textanim li span::after {
     content: "";
     position: absolute;
     left: 0;
@@ -101,8 +101,8 @@ main .textanim li span::after{
     animation: typing 1.5s steps(10) infinite;
 }
 
-@keyframes typing{
-    100%{
+@keyframes typing {
+    100% {
         left: 100%;
         margin: 0 -35px 0 35px;
     }
@@ -115,19 +115,83 @@ main .textanim li span::after{
     padding-top: 42px;
 }
 
-.contenedor .boton{
-    padding: 12px 16px;
+.contenedor .boton {
+    position: relative;
+    display: inline-block;
+    padding: 12px 18px;
     border-width: 3px;
+    letter-spacing: 2px;
     color: #5FE9A5;
     overflow: hidden;
     transition: 0.2s;
 }
 
-.contenedor .boton:hover{
+.contenedor .boton:hover {
     background-color: #5FE9A5;
     color: #1B211F;
     box-shadow: 0 0 10PX #5FE9A5, 0 0 40PX #5FE9A5, 0 0 80PX #5FE9A5;
     font-weight: 700;
+    transition-delay: 1s;
+}
+
+.contenedor .boton span {
+    position: absolute;
+    display: block;
+}
+
+.contenedor .boton #span1 {
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 2px;
+    background: linear-gradient(90deg, transparent, #5FE9A5);
+}
+
+.contenedor .boton:hover #span1 {
+    left: 100%;
+    transition: 1s;
+}
+
+.contenedor .boton #span3 {
+    bottom: 0;
+    right: -100%;
+    width: 100%;
+    height: 2px;
+    background: linear-gradient(270deg, transparent, #5FE9A5);
+}
+
+.contenedor .boton:hover #span3 {
+    right: 100%;
+    transition: 1s;
+    transition-delay: 0.5s;
+}
+
+.contenedor .boton #span2 {
+    top: -100%;
+    right: 0;
+    width: 2px;
+    height: 100%;
+    background: linear-gradient(180deg, transparent, #5FE9A5);
+}
+
+.contenedor .boton:hover #span2 {
+    top: 100%;
+    transition: 1s;
+    transition-delay: 0.25s;
+}
+
+.contenedor .boton #span4 {
+    bottom: -100%;
+    left: 0;
+    width: 2px;
+    height: 100%;
+    background: linear-gradient(360deg, transparent, #5FE9A5);
+}
+
+.contenedor .boton:hover #span4 {
+    bottom: 100%;
+    transition: 1s;
+    transition-delay: 0.75s;
 }
 
 /*FOOTER*/
@@ -148,7 +212,7 @@ footer {
 /* ------------------------ */
 
 @media (max-width: 700px) {
-    body{
+    body {
         display: flex;
         flex-direction: column;
         min-height: 100vh;
@@ -164,7 +228,7 @@ footer {
         padding-left: 16px;
     }
 
-    .textohero span{
+    .textohero span {
         display: flex;
         font-size: 20px;
         font-weight: 700;
@@ -189,20 +253,20 @@ footer {
         padding-left: 10px;
     }
 
-    main .textanim li span{
+    main .textanim li span {
         position: relative;
         top: 0;
         font-size: 17px;
         animation: slide 6s steps(4) infinite;
     }
 
-    @keyframes slide{
-        100%{
+    @keyframes slide {
+        100% {
             top: -88px
         }
     }
 
-    main .textanim li span::after{
+    main .textanim li span::after {
         content: "";
         position: absolute;
         left: 0;
@@ -213,5 +277,5 @@ footer {
         animation: typing 1.5s steps(10) infinite;
     }
 
-  
+
 }
