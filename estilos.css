@@ -199,6 +199,10 @@ main .textanim li span::after {
     transition-delay: 0.75s;
 }
 
+.contenedor .li{
+    color: #889FA5;
+}
+
 .contenedor2 {
     display: flex;
     align-items: center;
