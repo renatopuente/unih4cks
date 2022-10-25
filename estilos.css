@@ -144,6 +144,7 @@ main .textanim li span::after {
 }
 
 .contenedor a{
+    margin-top: 32px;
     color: #5FE9A5;
 }
 
@@ -165,7 +166,7 @@ main .textanim li span::after {
     font-size: 10px;
     color: #000000;
     line-height: 10px;
-    background: url(https://raw.githubusercontent.com/renatopuente/unihacks/main/renatofoto2.png) fixed center no-repeat;
+    background: url(https://raw.githubusercontent.com/renatopuente/unihacks/main/renofondo.png) fixed center no-repeat;
     background-size: contain;
     background-clip: text;
     -webkit-background-clip: text;
