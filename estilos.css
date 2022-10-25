@@ -53,13 +53,13 @@ nav a:hover {
 
 
 .textohero H1 {
-    display: flex;
+    display: flex !important;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    font-size: 32px;
-    font-weight: 800;
-    color: #889FA5;
-    justify-content: center;
-    margin-top: 32px;
+    font-size: 32px !important;
+    font-weight: 800 !important;
+    color: #889FA5 !important;
+    justify-content: center !important;
+    margin-top: 32px !important;
 }
 
 .textohero span {
@@ -296,13 +296,13 @@ footer {
     }
 
     .textohero H1 {
-        display: flex;
+        display: flex !important;
         font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-        font-size: 20px;
-        font-weight: 800;
-        color: #889FA5;
-        justify-content: center;
-        margin-top: 50px;
+        font-size: 20px !important;
+        font-weight: 800 !important;
+        color: #889FA5 !important; 
+        justify-content: center !important;
+        margin-top: 50px !important;
     }
 
     .textohero span {
@@ -410,13 +410,13 @@ footer {
     }
 
     .textohero H1 {
-        display: flex;
+        display: flex !important;
         font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-        font-size: 14px;
-        font-weight: 800;
-        color: #889FA5;
-        justify-content: center;
-        margin-top: 16px;
+        font-size: 14px !important;
+        font-weight: 800 !important;
+        color: #889FA5 !important;
+        justify-content: center !important;
+        margin-top: 16px !important;
     }
 
     .textohero span {
