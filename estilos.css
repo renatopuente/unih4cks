@@ -224,6 +224,8 @@ main .textanim li span::after {
     align-items: center;
     justify-content: center;
     padding-top: 42px;
+    background-color: #000000;
+    min-height: 100vh;
 }
 
 .contenedoradio {
