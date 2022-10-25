@@ -144,7 +144,7 @@ main .textanim li span::after {
 }
 
 .contenedor .container {
-    height: 500px;
+    height: fit-content;
     background-color: #1B211F;
     display: grid;
     place-items: center;
