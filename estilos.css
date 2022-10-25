@@ -224,7 +224,7 @@ main .textanim li span::after {
     align-items: center;
     justify-content: center;
     padding-top: 42px;
-    background-color: #000000;
+    background-color: #000000 !important;
     min-height: 100vh;
 }
 
