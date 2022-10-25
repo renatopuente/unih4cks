@@ -143,6 +143,14 @@ main .textanim li span::after {
 
 }
 
+.contenedor a{
+    color: #5FE9A5;
+}
+
+.contenedor a:hover{
+    color: #00C6B0;
+}
+
 .contenedor .container {
     overflow: hidden;
     max-width: 100vw;
