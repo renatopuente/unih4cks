@@ -144,7 +144,6 @@ main .textanim li span::after {
 }
 
 .contenedor .container {
-    visibility: hidden;
     height: 500px;
     background-color: #1B211F;
     display: grid;
