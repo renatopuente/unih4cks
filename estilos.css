@@ -244,6 +244,8 @@ footer {
 
     header {
         flex-direction: column;
+        padding-left: 0.5rem;
+        padding-right: 0.5rem;
     }
 
     nav {
@@ -345,18 +347,20 @@ footer {
 
     header {
         flex-direction: column;
+        padding-left: 0px;
+        padding-right: 0px;
     }
 
     nav {
         padding-top: 16px;
         padding-bottom: 16px;
-        padding-left: 2px;
+        padding-left: 2px !important;
     }
 
     nav a{
         padding-top: 16px;
         padding-bottom: 16px;
-        padding-left: 0px;
+        padding-left: 2px !important;
         font-size: smaller;
     }
 
