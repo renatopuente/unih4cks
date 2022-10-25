@@ -401,6 +401,7 @@ footer {
         font-weight: 700;
         transition: 0.8s;
         transition-delay: 0.5s;
+        border-radius: 4px;
     }
 
     .contenedor .container {
