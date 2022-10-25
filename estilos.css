@@ -32,8 +32,10 @@ nav a {
 }
 
 nav a:hover {
-    text-decoration: underline;
+    text-decoration: none;
     color: #00C6B0;
+    font-weight: 700;
+    transition: 0.2s;
 }
 
 .sep {
