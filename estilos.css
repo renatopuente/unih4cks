@@ -43,6 +43,12 @@ nav a:hover {
 
 /*MAIN*/
 
+.radioclaim {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+
 .textohero span {
     display: flex;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
