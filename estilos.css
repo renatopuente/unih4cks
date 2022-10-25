@@ -398,9 +398,9 @@ footer {
     }
     
     .contenedor .container .picture {
-        font-size: 10px;
+        font-size: 4px;
         color: #000000;
-        line-height: 10px;
+        line-height: 4px;
         background: url(https://raw.githubusercontent.com/renatopuente/unihacks/main/renatofoto2.png) fixed center no-repeat;
         background-size: contain;
         background-clip: text;
