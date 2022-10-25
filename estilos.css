@@ -139,7 +139,7 @@ main .textanim li span::after {
     display: flex;
     align-items: center;
     justify-content: center;
-    padding-top: 42px;
+    padding-top: 32px;
 
 }
 
@@ -379,6 +379,10 @@ footer {
         background: #1B211F;
         border-left: 3px solid #5FE9A5;
         animation: typing 1.5s steps(10) infinite;
+    }
+
+    .contenedor {
+        padding-top: 16px;
     }
 
     .contenedor .boton {
