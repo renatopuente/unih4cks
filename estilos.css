@@ -45,6 +45,8 @@ nav a:hover {
 
 /*MAIN*/
 
+
+
 .radioclaim {
     display: inline-flex;
     align-items: center;
@@ -137,7 +139,31 @@ main .textanim li span::after {
     align-items: center;
     justify-content: center;
     padding-top: 42px;
+    flex-direction: column;
+
 }
+
+.contenedor .container {
+    visibility: hidden;
+    height: 500px;
+    background-color: #1B211F;
+    display: grid;
+    place-items: center;
+    padding: 32px;
+}
+
+.contenedor .container .picture {
+    font-size: 10px;
+    color: #000000;
+    line-height: 10px;
+    background: url(https://raw.githubusercontent.com/renatopuente/unihacks/main/renatofoto2.png) fixed center no-repeat;
+    background-size: contain;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fil-color:
+    rgba(53, 192, 38, 0.2);
+}
+
 
 .contenedor .boton {
     position: relative;
@@ -361,6 +387,26 @@ footer {
         font-weight: 700;
         transition: 0.8s;
         transition-delay: 0.5s;
+    }
+
+    .contenedor .container {
+        height: 500px;
+        background-color: #1B211F;
+        display: grid;
+        place-items: center;
+        padding: 32px;
+    }
+    
+    .contenedor .container .picture {
+        font-size: 10px;
+        color: #000000;
+        line-height: 10px;
+        background: url(https://raw.githubusercontent.com/renatopuente/unihacks/main/renatofoto2.png) fixed center no-repeat;
+        background-size: contain;
+        background-clip: text;
+        -webkit-background-clip: text;
+        -webkit-text-fil-color:
+        rgba(53, 192, 38, 0.2);
     }
 
     .radio {
