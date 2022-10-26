@@ -174,6 +174,7 @@ main .textanim li span::after {
     rgba(53, 192, 38, 0.2);
 }
 
+
 /*CALL TO ACTION*/
 /*INVADIR AHORA*/
 
@@ -278,6 +279,15 @@ main .textanim li span::after {
     background-color: #000000 !important;
     min-height: 80vh;
 }
+
+.contenedor4 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 40vh;
+}
+
+
 
 .contenedoradio {
     display: flex;
